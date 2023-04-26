@@ -1,0 +1,220 @@
+<mxfile host="65bd71144e">
+    <diagram id="u04GGDZlZpsjg4K006iI" name="Page-1">
+        <mxGraphModel dx="1942" dy="1026" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="583" background="#FFFFFF" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="58" value="&lt;br&gt;&lt;br&gt;&lt;br&gt;&amp;nbsp; loop" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=#FFFFFF;strokeColor=#666666;strokeWidth=1;fontColor=#333333;fillColor=#FFFFFF;align=left;dashed=1;" vertex="1" parent="1">
+                    <mxGeometry x="353" y="831" width="346" height="65" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Terminal" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#1844c9;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry y="480" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Terminal" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#1844c9;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry y="960" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="Main program (in app.rb)" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#1844c9;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="960" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" style="edgeStyle=none;html=1;endArrow=baseDash;endFill=0;strokeColor=#0000FF;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="13" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="500" y="959.9999999999998" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="13" value="ALBUMREPOSITORY&amp;nbsp; class (in lib/ALBUM_REPOSITORYrb." style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#1844c9;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="406" y="480" width="186" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" style="edgeStyle=none;html=1;endArrow=baseDash;endFill=0;strokeColor=#0000FF;" parent="1" source="16" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="744" y="960" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="16" value="DATABASECONNECTION class (in lib/DATABASE_CONNECTION.rb." style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#1844c9;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="640.5" y="480" width="207.5" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=baseDash;endFill=0;strokeColor=#0000FF;" parent="1" source="19" target="20" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="913" y="890" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="19" value="Postgres database" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#1844c9;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="883" y="480" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="Postgres database" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#1844c9;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="883" y="960" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;fontColor=#F0F0F0;endArrow=baseDash;endFill=0;strokeColor=#0000FF;" parent="1" source="23" target="11" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="260" y="860"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="23" value="Main program (in app.rb)" style="whiteSpace=wrap;html=1;fontSize=12;fontColor=#333333;rounded=0;fillColor=#f5f5f5;strokeColor=#1844c9;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="480" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#F0F0F0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=baseDash;endFill=0;strokeColor=#0000FF;" parent="1" target="8" edge="1">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="59.41" y="520" as="sourcePoint"/>
+                        <mxPoint x="59.41" y="820" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="29" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#F0F0F0;endArrow=classic;endFill=1;strokeColor=#c12fa6;" parent="1" edge="1">
+                    <mxGeometry x="-0.0588" y="20" width="80" relative="1" as="geometry">
+                        <mxPoint x="60" y="560" as="sourcePoint"/>
+                        <mxPoint x="260" y="560" as="targetPoint"/>
+                        <Array as="points"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="48" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;Runs &quot;ruby APP.RB&quot;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#FFFFFF;fontColor=#000000;" parent="29" vertex="1" connectable="0">
+                    <mxGeometry x="-0.0975" relative="1" as="geometry">
+                        <mxPoint y="-17" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="30" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#F0F0F0;endArrow=classic;endFill=1;strokeColor=#c12fa6;" parent="1" edge="1">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="260" y="940" as="sourcePoint"/>
+                        <mxPoint x="60" y="940" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="31" value="Prints list of ALBUMS to terminal" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontColor=#000000;labelBackgroundColor=#FFFFFF;" parent="30" vertex="1" connectable="0">
+                    <mxGeometry x="0.3017" y="-3.99" relative="1" as="geometry">
+                        <mxPoint x="27" y="-12" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="33" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#F0F0F0;endArrow=classic;endFill=1;strokeColor=#c12fa6;" parent="1" edge="1">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="260" y="590" as="sourcePoint"/>
+                        <mxPoint x="748" y="590" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="34" value="Opens connection to tadabase by calling CONNECT method on DATABASECONNECTION" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontColor=#000000;labelBackgroundColor=#FFFFFF;" parent="33" vertex="1" connectable="0">
+                    <mxGeometry x="-0.3312" y="-1" relative="1" as="geometry">
+                        <mxPoint x="60" y="-14" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="35" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#F0F0F0;endArrow=classic;endFill=1;strokeColor=#c12fa6;" parent="1" edge="1">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="260" y="660" as="sourcePoint"/>
+                        <mxPoint x="500" y="660" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="36" value="Calls ALL method on ALBUMREPOSITORY" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontColor=#000000;labelBackgroundColor=#FFFFFF;" parent="35" vertex="1" connectable="0">
+                    <mxGeometry x="0.3522" y="-1" relative="1" as="geometry">
+                        <mxPoint x="-42" y="-11" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="37" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#F0F0F0;endArrow=classic;endFill=1;strokeColor=#c12fa6;" parent="1" edge="1">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="500" y="920" as="sourcePoint"/>
+                        <mxPoint x="260" y="920" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="38" value="Returns ARRAY of ALBUM objects" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontColor=#000000;labelBackgroundColor=#FFFFFF;" parent="37" vertex="1" connectable="0">
+                    <mxGeometry x="0.0154" y="-2" relative="1" as="geometry">
+                        <mxPoint x="1" y="-11" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="39" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#F0F0F0;endArrow=classic;endFill=1;strokeColor=#c12fa6;" parent="1" edge="1">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="500" y="700" as="sourcePoint"/>
+                        <mxPoint x="746" y="700" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="580" y="700"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="40" value="Sends SQL query by calling EXEC_PARAMS method on DATABASECONECTION" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontColor=#000000;labelBackgroundColor=#FFFFFF;" parent="39" vertex="1" connectable="0">
+                    <mxGeometry x="-0.3537" y="-1" relative="1" as="geometry">
+                        <mxPoint x="45" y="-13" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="41" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#F0F0F0;endArrow=classic;endFill=1;strokeColor=#c12fa6;" parent="1" edge="1">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="745" y="810" as="sourcePoint"/>
+                        <mxPoint x="500" y="810" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="42" value="Returns an ARRAY of HASHES, one for each row of the ALBUMS table" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontColor=#000000;labelBackgroundColor=#FFFFFF;" parent="41" vertex="1" connectable="0">
+                    <mxGeometry x="-0.24" relative="1" as="geometry">
+                        <mxPoint x="-24" y="-14" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="43" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#c12fa6;" parent="1" edge="1">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="748" y="730" as="sourcePoint"/>
+                        <mxPoint x="948" y="730" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="44" value="Sends query to database via the open database connection" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;labelBackgroundColor=#FFFFFF;" parent="43" vertex="1" connectable="0">
+                    <mxGeometry x="-0.3028" y="-2" relative="1" as="geometry">
+                        <mxPoint x="18" y="-15" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="45" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#c12fa6;" parent="1" edge="1">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="945" y="780" as="sourcePoint"/>
+                        <mxPoint x="745" y="780" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="46" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; background-color: rgb(42, 37, 47);&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Returns%20an%20____%20of%20___%2C%20one%20for%20each%20row%20of%20the%20____%20table%22%20style%3D%22edgeLabel%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3Bresizable%3D0%3Bpoints%3D%5B%5D%3BfontSize%3D12%3BfontColor%3D%23F0F0F0%3B%22%20vertex%3D%221%22%20connectable%3D%220%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22599.75%22%20y%3D%22786%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="45" vertex="1" connectable="0">
+                    <mxGeometry x="0.2889" y="-2" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="47" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;Returns an ARRAY of HASHES, one for each row of the ALBUMS table&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;labelBackgroundColor=#FFFFFF;fontSize=12;spacing=2;spacingBottom=-7;" parent="45" vertex="1" connectable="0">
+                    <mxGeometry x="0.1083" y="-2" relative="1" as="geometry">
+                        <mxPoint x="10" y="-18" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="50" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=1;shadow=0;strokeColor=#c12fa6;" parent="1" edge="1">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="506" y="856" as="sourcePoint"/>
+                        <mxPoint x="516" y="886" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="536" y="856"/>
+                            <mxPoint x="556" y="866"/>
+                            <mxPoint x="546" y="886"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="51" value="Loops through ARRAY&amp;nbsp; and creates and ALBUM object for every row" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];shadow=0;fontColor=#000000;labelBackgroundColor=#FFFFFF;" parent="50" vertex="1" connectable="0">
+                    <mxGeometry x="-0.6849" y="-4" relative="1" as="geometry">
+                        <mxPoint x="2" y="-14" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="55" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=1;strokeColor=#c12fa6;" parent="1" edge="1">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="745.0000000000002" y="621" as="sourcePoint"/>
+                        <mxPoint x="755.0000000000002" y="651" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="775" y="621"/>
+                            <mxPoint x="795" y="631"/>
+                            <mxPoint x="785" y="651"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="56" value="Opens database connection using PG and stores the connection&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;labelBackgroundColor=#FFFFFF;" parent="55" vertex="1" connectable="0">
+                    <mxGeometry x="-0.6849" y="-4" relative="1" as="geometry">
+                        <mxPoint y="-22" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="57" value="ALBUMREPOSITORY&amp;nbsp; class (in lib/ALBUM_REPOSITORYrb." style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#1844c9;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="409" y="960" width="183" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="DATABASECONNECTION class (in lib/DATABASE_CONNECTION.rb." style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#1844c9;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="640.5" y="962" width="207.5" height="40" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

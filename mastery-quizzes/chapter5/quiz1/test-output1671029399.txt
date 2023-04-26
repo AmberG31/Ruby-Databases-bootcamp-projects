@@ -1,0 +1,27 @@
+F.
+
+Failures:
+
+  1) Q1. Magic 8 ball always `puts`es one of the magic 8 ball responses
+     Failure/Error:
+       expect { load "questions/question_1.rb" }
+         .to output(/#{responses.join("|")}$/).to_stdout
+
+     Errno::ENOENT:
+       No such file or directory @ rb_sysopen - --no-color
+     # questions/question_1.rb:16:in `gets'
+     # questions/question_1.rb:16:in `gets'
+     # questions/question_1.rb:16:in `<top (required)>'
+     # ./spec/question_1_spec.rb:12:in `load'
+     # ./spec/question_1_spec.rb:12:in `block (4 levels) in <top (required)>'
+     # ./spec/question_1_spec.rb:12:in `block (3 levels) in <top (required)>'
+     # ./spec/question_1_spec.rb:11:in `times'
+     # ./spec/question_1_spec.rb:11:in `block (2 levels) in <top (required)>'
+
+Finished in 1.64 seconds (files took 0.12595 seconds to load)
+2 examples, 1 failure
+
+Failed examples:
+
+rspec ./spec/question_1_spec.rb:10 # Q1. Magic 8 ball always `puts`es one of the magic 8 ball responses
+
